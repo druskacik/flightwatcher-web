@@ -27,6 +27,14 @@ useHead({
             content: 'Flight Watcher Bot - get cheap flight notifications directly to your Telegram inbox.',
         },
     ],
+    script: [
+        {
+            src: 'https://umami.cr.bswatcher.com/umami.js',
+            'data-website-id': '123c5372-cac7-47f3-99b7-beeaa5dff9cc',
+            async: true,
+            defer: true,
+        },
+    ],
 });
 </script>
   
